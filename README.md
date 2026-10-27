@@ -1,16 +1,38 @@
-# React + Vite
+# Tap Counter
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple counter app with a light/dark theme toggle, built to practice React state and the basics of React.
 
-Currently, two official plugins are available:
+**Live demo:** [tap-counter-iota.vercel.app](https://tap-counter-iota.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Tap Counter screenshot](./docs/screenshot.png)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Increase, decrease and reset the counter
+- The number turns green when positive and red when negative
+- Toggle between light and dark mode
 
-## Expanding the Oxlint configuration
+## Tech used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React
+- Vite
+- CSS
+- GitHub Actions (CI) and Vercel (deployment)
+
+## What I practiced
+
+- `useState` and the updater form (`setCount((prev) => prev + 1)`)
+- Handling events with `onClick`
+- Conditional rendering and conditional class names
+- Deriving values from state instead of storing them
+
+## Run it locally
+
+```bash
+git clone https://github.com/SIRUP1999/Tap-counter.git
+cd Tap-counter
+npm install
+npm run dev
+```
+
+Then open the local link that Vite prints, usually `http://localhost:5173`.
