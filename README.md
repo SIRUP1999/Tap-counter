@@ -1,6 +1,6 @@
 # Tap Counter
-[![CI](https://github.com/SIRUP1999/Tap-counter/actions/workflows/ci.yaml/badge.svg)](https://github.com/SIRUP1999/Tap-counter/actions/workflows/ci.yaml)
 A simple counter app with a light/dark theme toggle, built to practice React state and the basics of React.
+[![CI](https://github.com/SIRUP1999/Tap-counter/actions/workflows/ci.yaml/badge.svg)](https://github.com/SIRUP1999/Tap-counter/actions/workflows/ci.yaml)
 
 **Live demo:** [tap-counter-iota.vercel.app](https://tap-counter-iota.vercel.app/)
 
